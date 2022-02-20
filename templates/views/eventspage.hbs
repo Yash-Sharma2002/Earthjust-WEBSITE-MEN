@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/eventspage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Events</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+</head>
+
+<body>
+    {{!-- Event page is here --}}
+    {{!-- Basically t is a demo page --}}
+    {{!-- i made only one page just top show but is it is successfull i can make more of different kinds --}}
+    {{!-- Because it is the only one all the clicks on events details will lead to this page --}}
+    {{!-- for all the events that are oragnised we have to redirect the page to this page --}}
+    {{!-- if events are multiple than we have to make multiple events page an redirect them --}}
+
+    {{>navbar}}
+    <div class="event-poster">
+        {{!-- here comes the poster and the heading of the event --}}
+        <h1>Education & Outreach</h1><img src="/images/ongoing_event.webp" alt="Event Poster" srcset="">
+
+        {{!-- now here comes the information about the events in different texts paragraphs with their sub headings --}}
+        <h2>Sub-Heading Goes Here</h2>
+        <p class="event-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa doloremque molestias
+            repellendus iure quis ratione in veritatis. Natus molestias illum maiores deleniti ad beatae aperiam
+            eligendi,
+            cumque tenetur. Beatae eum magnam ipsum iusto.</p>
+        <h2>Sub-Heading Goes Here</h2>
+        <p class="event-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad dolore, alias
+            mollitia
+            maiores, ea sequi maxime expedita accusamus ex non. Vel excepturi sit ex. Tenetur, iste voluptatibus!
+            Veritatis
+            amet ipsa eaque perspiciatis.</p>
+        <h2>Sub-Heading Goes Here</h2>
+        <p class="event-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo id necessitatibus incidunt
+            eligendi pariatur possimus quis consectetur iusto nostrum totam soluta, quae alias, ab, temporibus
+            distinctio
+            animi amet nam suscipit veniam iste reiciendis!</p>
+        <h2>Sub-Heading Goes Here</h2>
+        <p class="event-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, minus temporibus
+            voluptas
+            facilis consequatur iste molestias corrupti non voluptatum quo, hic eius ipsum! Commodi sit tenetur modi
+            magni
+            fuga sed ad quae natus!</p>
+        <h2>Sub-Heading Goes Here</h2>
+        <p class="event-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum doloribus saepe
+            voluptates adipisci sit iure doloremque minus, illo aliquid earum dignissimos at temporibus quas vero quis
+            ipsum? Eaque minima laborum nemo eveniet alias?</p>
+
+    </div>
+
+
+    {{!-- here comes the testimonials related to events --}}
+    <div class="testimonials-event">
+        <h1>Testimonials related to events</h1>
+        <div class="testimonials-cards">
+            <div class="testimonials-1">
+                <h2>Yash Sharma</h2>
+                <span class="divider"></span>
+                <p class="details">"we can add anything in this testimonials and alos increase their height and also add
+                    carousel if you want to"</p>
+            </div>
+            <div class="testimonials-1">
+                <h2>Yash Garg</h2>
+                <span class="divider"></span>
+                <p class="details">"we can add anything in this testimonials and alos increase their height and also add
+                    carousel if you want to"</p>
+            </div>
+            <div class="testimonials-1">
+                <h2>Nalin Shukla</h2>
+                <span class="divider"></span>
+                <p class="details">"we can add anything in this testimonials and alos increase their height and also add
+                    carousel if you want to"</p>
+            </div>
+            <div class="testimonials-1">
+                <h2>Sanyam Kothari</h2>
+                <span class="divider"></span>
+                <p class="details">"we can add anything in this testimonials and alos increase their height and also add
+                    carousel if you want to"</p>
+            </div>
+        </div>
+    </div>
+
+    {{!-- now comes the gallery section where events related phtoos and videos can be shared --}}
+    <div class="gallery-head">
+        Gallery of Events
+    </div>
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell">
+            <img src="/images/carousel1_image1.jpg" alt="" srcset="">
+        </div>
+        <div class="gallery-cell">
+            <img src="/images/carousel1_image2.jpg" alt="" srcset="">
+        </div>
+        <div class="gallery-cell"></div>
+        <div class="gallery-cell"></div>
+        <div class="gallery-cell"></div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

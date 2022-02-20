@@ -1,0 +1,22 @@
+{
+  "name": "earthjust-ecosysytems",
+  "version": "1.0.0",
+  "description": "earethjust ecosystems ngo website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js -e js,handlebars"
+  },
+  "author": "yash sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^5.3.3",
+    "hbs": "^4.1.2",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.2.2",
+    "node": "^16.9.1",
+    "nodemon": "^2.0.15",
+    "validator": "^13.6.0"
+  }
+}

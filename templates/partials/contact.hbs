@@ -1,0 +1,105 @@
+<style>
+    div.form {
+        text-align: center;
+        margin-top: 11rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    div.form div.left {
+        box-shadow: 0px 1px 12px 0px rgb(0, 0, 0.1);
+        width: 40%;
+        margin-left: 3rem;
+    }
+
+    div.form div.right {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 2rem;
+        text-align: start;
+    }
+
+    div.form div.right .lables {
+        font-size: 2.7rem;
+        font-weight: 100;
+        color: lightseagreen;
+        padding: 20px;
+    }
+
+    div.form div.right .inputs {
+        margin: 1rem;
+        width: 600px;
+        border-width: .9px;
+        border-radius: 31px;
+        height: 4rem;
+        margin-left: 8rem;
+        text-align: center!important;
+        color: lightseagreen;
+        font-size: 2rem;
+    }
+     div.form div.right .inputs:focus {
+        outline: none;
+    }
+    .textarea{
+        height: 17rem!important;
+        resize: none;
+    }
+    .left iframe{
+        height: 800px!important;
+    }
+    .right button{
+        margin-left: 21rem;
+        margin-top: 2rem;
+        text-align: center;
+        background-color: white;
+        padding:15px 20px;
+        font-size: 1.8rem;
+        color: lightskyblue;
+        border: 2px solid lightseagreen;
+        border-radius: 1rem;
+    }
+    .right button:hover{
+        color: white;
+        background-color: lightseagreen;
+    }
+    .form-head h1{
+        font-size: 3rem;
+        font-weight: 100;
+        text-align: center;
+        color: lightseagreen;
+        margin-top: 8rem;
+    }
+    .form-head h2{
+        font-weight: 100;
+        text-align: center;
+        color: lightseagreen;
+        font-size: 2rem;
+    }
+
+</style>
+<div class="form-head">
+    <h1>Contact Us</h1>
+    <h2>we will be happy to help you</h2>
+</div>
+<div class="form">
+    <div class="left">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3423.16177186189!2d77.09674503184786!3d30.91010203892097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f86ca41f2132d%3A0xeaff0eb1ca6ac599!2sEarthjust%20Ecosystems!5e0!3m2!1sen!2sin!4v1632322527927!5m2!1sen!2sin"
+            width="600" height="700" style="border:0;" allowfullscreen="" ></iframe>
+    </div>
+
+    <div class="right">
+        <form action="/query-submitted" method="POST">
+            <label for="user_name" class="lables lable1">Name </label><br>
+            <input type="text" placeholder="Enter Your Name..." name="user_name" class="inputs input1" required><br>
+            <label for="user_email" class="lables label2">E-mail </label><br>
+            <input type="email" placeholder="Enter Your E-mail..." name="user_email" class="inputs input2" required><br>
+            <label for="textarea" class="lables lable3">Message </label><br>
+            <textarea name="message" id="textarea" cols="30" rows="10" class="inputs textarea" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>

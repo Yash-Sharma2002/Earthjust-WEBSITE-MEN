@@ -1,0 +1,117 @@
+*{
+    font-family: 'Port Lligat Sans', sans-serif;
+}
+
+.card-upcoming-events{
+    height: 650px!important;
+}
+
+.ongoing-event{
+    display: flex;
+    text-align: center;
+    margin-top: 8rem;
+}
+.ongoing-event .left{
+    width:50%;
+}
+.ongoing-event h1{
+    color: lightseagreen;
+}
+.ongoing-event p.description{
+    word-wrap: break-word;
+    font-size: 23px;
+    opacity: 0.3;
+    font-weight: 100;
+    margin-bottom: 6rem;
+}
+.ongoing-event .btn1,.past-events  .btn1{
+    color: lightseagreen;
+    text-decoration: none;
+    font-weight: 100;
+    padding: 10px;
+    border: 2px solid lightseagreen;
+}
+.ongoing-event .btn1:hover,
+.past-events .btn1:hover{
+    color: white;
+border: none;
+background-color: lightseagreen;
+}
+.ongoing-event div.right{
+    width: 50%;
+}
+.past-events-head{
+    color: lightseagreen;
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.past-events{
+    display: flex;
+    margin-top: 9rem;
+}
+.past-events .past-event-left{
+    width: 50%;
+}
+.staricon{
+    color: lightseagreen;
+    font-size: 2.7rem;
+    text-align: center;
+    margin-left: 9rem;
+    margin-top: 29px;
+}
+
+.past-event-left img{
+    width: 100%!important;
+    height: 2850px;
+}
+.top-head{
+    display: flex;
+}
+.past-events .past-event-right{
+    width: 50%;
+    text-align: center;
+}
+.event{
+    margin-top: 3rem;
+}
+.past-events .past-event-right  h1{
+    margin-left: 4px;
+    font-size: 2.7rem;
+    color: lightseagreen;
+    font-weight: 100;
+}
+.past-events .past-event-right  h3{
+    font-size: 2rem;
+    opacity: 0.4;
+    font-weight: 100;
+}
+p.details{
+    word-wrap: break-word;
+    width: 90%;
+    margin-left: 5rem;
+    font-size: 2rem;
+    text-align: start;
+    font-weight: 100;
+    opacity: 0.2;
+}
+.event3 .staricon{
+    margin-left:10rem ;
+}
+.event4 .staricon{
+    margin-left:12rem ;
+}
+.event5 .staricon{
+    margin-left:15rem ;
+}
+
+footer{
+    margin-top: 3rem!important;
+    margin-bottom: -1rem!important;
+}
+
+footer .claim{
+    margin-top: -26px!important;
+  }

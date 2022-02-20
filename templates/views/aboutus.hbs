@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/aboutus.css">
+    <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="main-top-1">
+        <h1>About Us</h1>
+
+        <div class="type-1">
+            <div class="type-1-image">
+                <img src="/images/aboutpage_1.jpg" alt="" srcset="">
+            </div>
+            <div class="type-1-text">
+                Earthjust is an organisation/platform promoting sustainable living practices.
+                <br> Here at EarthJust
+                Ecosystems,
+                we see the value in everyone. We want to be a catalyst for positive change.
+            </div>
+        </div>
+
+        <div class="type-2">
+            <div class="type-2-text">
+                We believe that the individual has the power to make the environment around him more sustainable. We
+                co-think and collaborate with individuals, households, institutions and communities in making them more
+                sustainable in their practices.We are building an ecosystem that supports our collaborators to move from
+                awareness to inducing action till they are able to build habit through easily do-able practices that
+                help
+            </div>
+            <div class="type-2-image">
+                <img src="/images/aboutpage_2.jpg" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="type-3">
+            <div class="type-3-image">
+                <img src="/images/aboutpage_3.jpg" alt="" srcset="">
+            </div>
+            <div class="type-3-text">
+                connect the head, heart and hand.
+
+                We hope to create a swacch, sundar, swasth, saksham, samriddh, sanyukt, satat - samaj.
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    {{!-- moto goes here --}}
+    <div class="moto-section">
+        <h1>OUR MOTO</h1>
+        <div class="all-moto-images">
+            <img src="/images/intuition.png" alt="" srcset="">
+            <img src="/images/empathy.png" alt="" srcset="">
+            <img src="/images/harmony.png" alt="" srcset="">
+            <img src="/images/foreseight.png" alt="" srcset="">
+            <img src="/images/consciousness.png" alt="" srcset="">
+        </div>
+    </div>
+
+    {{!-- achievements goes here --}}
+    <div class="achievement-section">
+        <h1>OUR ACHIEVEMENTS</h1>
+        {{!-- we can add our images with text here before that we have to apply besr fitted css for that --}}
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+                <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                        <img src="/images/aboutimg_mainpage.jpg" alt="" srcset="">
+                        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                    </div>
+                </li>
+                <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                </li>
+                <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                    </div>
+                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                </li>
+                <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                        <img src="/images/achievement1.jpg" alt="" srcset="">
+                    </div>
+                    <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                </li>
+            </ol>
+            <aside class="carousel__navigation">
+                <ol class="carousel__navigation-list">
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                    </li>
+                </ol>
+            </aside>
+        </section>
+
+    </div>
+
+    {{!-- team members section goes here --}}
+    <div class="team-members">
+        <h1>OUR TEAM</h1>
+        <div class="members-list">
+            <div class="member">
+                <img src="/imagem/member1.webp" alt="" srcset="">
+                <h2 class="member-name">
+                    Yash Sharma
+                </h2>
+                <p class="details">
+                    we can add their details here any kind of details with social media icons
+                </p>
+            </div>
+            <div class="member">
+                <img src="/imagem/member2.webp" alt="" srcset="">
+                <h2 class="member-name">
+                    Yash Grag
+                </h2>
+                <p class="details">
+                    we can add their details here any kind of details with social media icons
+                </p>
+            </div>
+            <div class="member">
+                <img src="/imagem/member3.webp" alt="" srcset="">
+                <h2 class="member-name">
+                    Nalin Shukla
+                </h2>
+                <p class="details">
+                    we can add their details here any kind of details with social media icons
+                </p>
+            </div>
+            <div class="member">
+                <img src="/imagem/member4.webp" alt="" srcset="">
+                <h2 class="member-name">
+                    Sanyam Kothari
+                </h2>
+                <p class="details">
+                    we can add their details here any kind of details with social media icons
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    {{>contact}}
+
+    {{>footer}}
+
+</body>
+
+</html>
